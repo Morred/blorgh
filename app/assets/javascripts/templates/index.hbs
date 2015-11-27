@@ -1,0 +1,7 @@
+<h1>Posts</h1>
+
+{{#link-to 'posts.new'}}New Post{{/link-to}}
+{{#each}}
+  <h2>{{#link-to 'post' this}}{{title}}{{/link-to}}</h2>
+  {{text}}
+{{/each}}

@@ -8,6 +8,9 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 
+gem 'ember-rails'
+gem 'ember-source', '1.5.1.1'
+
 group :doc do
 
   gem 'sdoc', require: false

@@ -1,0 +1,11 @@
+<form>
+  <p class='input-group'>
+    <label for='title'>Title</label><br>
+    {{input value=title class="form-control input-lg" size="50"}}
+  </p>
+  <p class='input-group'>
+    <label for='text'>Text</label><br>
+    {{textarea value=text class="form-control input-lg" size="50" rows="10" cols="100"}}
+  </p>
+  <input type='button' value='Save Post' class='btn btn-primary' {{action 'save' this}}>
+</form>
